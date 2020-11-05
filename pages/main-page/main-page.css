@@ -1,0 +1,137 @@
+html {
+  background: url("/assets/background/idk.jpg") fixed;
+}
+.LogoContainer {
+  text-align: center;
+}
+.LogoImage {
+  margin: 20px 0 100px 0;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba(255, 255, 255, 0.37);
+}
+.List {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: 0 auto;
+}
+.Chips {
+  margin: 30px 30px;
+  padding: 5px;
+  background: rgba(250, 247, 246, 0.452);
+  width: 260px;
+  height: 390px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ChipsImage {
+  width: 200px;
+  height: 260px;
+  border-radius: 10px;
+  border-bottom: 3px solid black;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.ChipsDescription {
+  font-size: 25px;
+  font-family: "Syne Mono", monospace;
+  color: rgba(29, 28, 28, 0.897);
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+h1 {
+  font-size: 50px;
+  line-height: 50px;
+  /*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+    0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+  color: #fccaff; */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+    0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  color: #fff6a9;
+  font-family: "Sacramento", cursive;
+  text-align: center;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+  border-bottom: 50px;
+}
+
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    /*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+      0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    /*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+      0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+}
+.Intro {
+  text-align: center;
+}
+.Description {
+  color: rgb(211, 80, 20);
+  text-align: center;
+  font-size: 25px;
+  width: 800px;
+  margin: 0 auto;
+  font-family: "Fredoka One", cursive;
+}
+.BackToWelcome a {
+  color: orangered;
+  font-family: "Fredoka One", cursive;
+}
+.BackToWelcome {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}

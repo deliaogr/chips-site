@@ -1,0 +1,70 @@
+html {
+  background: url("/assets//background/background.jpg");
+}
+.LogoContainer {
+  text-align: center;
+}
+.LogoImage {
+  margin: 20px 0 100px 0;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba(255, 255, 255, 0.37);
+}
+.WelcomeMessage {
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.603);
+  border: rgb(255, 209, 58);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  font-family: "Syne Mono", monospace;
+}
+.WelcomeMessage h1 {
+
+  color: white;
+  font-size: 40px;
+}
+.WelcomeButton {
+  background-color: rgb(255, 209, 58);
+  border-radius: 12px;
+  padding: 12px;
+  width: 170px;
+  border: none;
+  margin-bottom: 20px;
+}
+.WelcomeButton:hover {
+  background-color: white;
+  font-weight: bold;
+}
+.WelcomeButton a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+@media (max-width: 600px) {
+  .LogoImage {
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    box-shadow: none;
+    background: transparent;
+  }
+  header {
+    background-color: white;
+  }
+
+  .WelcomeMessage {
+    width: 90%;
+    margin: 50px auto;
+  }
+  .WelcomeMessage h1 {
+    font-size: 30px;
+  }
+}
